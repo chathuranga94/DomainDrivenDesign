@@ -11,6 +11,7 @@ namespace BiBi.Domain.Models
         public string ObjectID { get; set; }
         
         //public User AccountOwner { get; set; }
+        public int AccountID { get; set; }
         public int Balance { get; set; }
     }
 }

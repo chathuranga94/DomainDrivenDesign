@@ -6,7 +6,7 @@ namespace BiBi.Domain.Models
     {
         //*** [Key]
         public string ObjectID { get; set; }
-        public string UserID { get; set; }
+        public int UserID { get; set; }
         [Required]
         public string FirstName { get; set; }
         public string LastName { get; set; }

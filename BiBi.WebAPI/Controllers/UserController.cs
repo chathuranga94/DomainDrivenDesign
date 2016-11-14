@@ -46,9 +46,19 @@ namespace BiBi.WebAPI.Controllers
         public User GetUser(int id)
         {
             User NewUser = new User();
-            //NewUser.UserId = id;
+            NewUser.UserID = id;
             NewUser.FirstName = "C";
             NewUser.LastName ="D";
+
+
+
+            IAccountRepository accountRepo = new AccountRepository();
+            Account acc = new Account();
+            acc.Balance = 1000;
+            acc.AccountID = 120;
+            accountRepo.Add(acc);
+
+            accountRepo.GetAll();
 
             return NewUser;
         }

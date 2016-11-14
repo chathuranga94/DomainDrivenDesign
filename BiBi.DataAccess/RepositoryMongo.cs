@@ -7,6 +7,7 @@ using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -14,6 +15,10 @@ using System.Threading.Tasks;
 
 namespace BiBi.DataAccess
 {
+    /// <summary>
+    /// GENERIC REPOSITORY USING C# MONGODB DRIVER
+    /// </summary>
+    /// <typeparam name="TEntity"></typeparam>
     public class RepositoryMongo<TEntity> where TEntity : IMongoEntity
     {
         protected static IMongoClient _client;
@@ -24,8 +29,12 @@ namespace BiBi.DataAccess
         {
             _client = new MongoClient("mongodb://localhost:27017");
             _database = _client.GetDatabase("Domain");
+            //  .CONFIG :  ConfigurationManager.AppSettings["MongoServer"]
+            //  App.Config XML  :   <appSettings> <add Key...
+            //  OR VS Proj -> Properties -> .settings
 
-            
+
+
             BsonClassMap.RegisterClassMap<TEntity>(e =>
             {
                 e.AutoMap();
