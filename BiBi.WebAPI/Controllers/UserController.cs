@@ -1,4 +1,6 @@
-﻿using BiBi.DataAccess.Repository;
+﻿using BiBi.DataAccess;
+using BiBi.DataAccess.Repository;
+using BiBi.Domain;
 using BiBi.Domain.Models;
 using BiBi.Domain.Repository;
 using System;
@@ -7,6 +9,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+//REMOVE all DataAccess references ***
+
 
 namespace BiBi.WebAPI.Controllers
 {
@@ -14,13 +18,21 @@ namespace BiBi.WebAPI.Controllers
     public class UserController : ApiController
     {
         private static IUserRepository userRepo;
+        //private static IUnitOfWork UoW;
+
         public UserController()
         {
             userRepo = userRepo ?? new UserRepository();
+
             // if (userRepo == null) { userRepo = new UserRepository(); }
             // ??   ?   ?.      Ternary Operators C#
             // http://stackoverflow.com/questions/26516825/argument-exception-item-with-same-key-has-already-been-added
             // http://stackoverflow.com/questions/5648060/an-item-with-the-same-key-has-already-been-added
+
+            /***
+             UoW = UoW ?? new UnitOfWork();
+             ***/
+
         }
 
 
@@ -34,6 +46,10 @@ namespace BiBi.WebAPI.Controllers
         {
             List<User> AllUsers = userRepo.GetAll();
             return AllUsers;
+
+            //  //IUnitOfWork UoW = new UnitOfWork();
+            //List<User> AllUsers = UoW.UserRepository.GetAll();
+            //return AllUsers;
         }
 
         /// <summary>
@@ -49,8 +65,6 @@ namespace BiBi.WebAPI.Controllers
             NewUser.UserID = id;
             NewUser.FirstName = "C";
             NewUser.LastName ="D";
-
-
 
             IAccountRepository accountRepo = new AccountRepository();
             Account acc = new Account();
@@ -84,7 +98,7 @@ namespace BiBi.WebAPI.Controllers
                 }
             */
 
-    }
+        }
 
     }
 }

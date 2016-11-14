@@ -70,6 +70,7 @@
     <Compile Include="RepositoryMongo.cs" />
     <Compile Include="Repository\AccountRepository.cs" />
     <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BiBi.Domain\BiBi.Domain.csproj">
