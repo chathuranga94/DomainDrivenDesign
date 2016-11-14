@@ -1,0 +1,6 @@
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.Domain\bin\Debug\BiBi.Domain.dll
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.Domain\bin\Debug\BiBi.Domain.pdb
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.Domain\obj\Debug\BiBi.Domain.csprojResolveAssemblyReference.cache
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.Domain\obj\Debug\BiBi.Domain.dll
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.Domain\obj\Debug\BiBi.Domain.pdb
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.Domain\bin\Debug\BiBi.Domain.dll.config

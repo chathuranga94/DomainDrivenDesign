@@ -1,0 +1,15 @@
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\BiBi.DataAccess.dll
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\BiBi.DataAccess.pdb
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\obj\Debug\BiBi.DataAccess.csprojResolveAssemblyReference.cache
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\obj\Debug\BiBi.DataAccess.dll
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\obj\Debug\BiBi.DataAccess.pdb
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\BiBi.Domain.dll
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\MongoDB.Bson.dll
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\MongoDB.Driver.Core.dll
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\MongoDB.Driver.dll
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\MongoDB.Driver.Legacy.dll
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\BiBi.Domain.pdb
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\MongoDB.Bson.xml
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\MongoDB.Driver.xml
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\MongoDB.Driver.Core.xml
+c:\users\chath_000\documents\visual studio 2015\Projects\DomainDrivenDesign\BiBi.DataAccess\bin\Debug\MongoDB.Driver.Legacy.xml
