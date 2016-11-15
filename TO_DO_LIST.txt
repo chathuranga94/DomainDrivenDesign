@@ -1,0 +1,49 @@
+UNIT OF WORK
+	Using IOC Frameworks Autofac vs Unity
+	Moving into infrasture layer so reference between API and DAL removed
+
+UNIT TESTING & TDD
+	MSTest vs NUnit (with Moq)
+
+LOGGING
+	LOG4NET vs NLOG	***
+	Logging into text file in production environment
+	Logging in debugging mode
+
+ERROR HANDLING
+	try - catch - throw : Handle in API layer
+	[ControllerExceptionFilter] extending ExceptionFilterAttribute
+	https://www.asp.net/web-api/overview/error-handling/web-api-global-error-handling
+	https://www.asp.net/web-api/overview/error-handling/exception-handling
+	http://www.infoworld.com/article/2994111/application-architecture/how-to-handle-errors-in-web-api.html
+
+API GENERIC RESPONSE
+	IHttpActionResult vs HttpResponseMessage
+	Generic model for data
+	HTTP code based response : errors with data
+
+AUTHORIZE API
+	OAuth JWT autorization : UserID payload
+	[AuthorizeRole] wrapper to role based authorization 
+
+DEPLOYMENT
+	Jenkins with GitHub push triggers
+	MSBuild configuration
+	Shell scripts for deployment
+
+CACHING
+
+EMAIL MANAGER
+
+SCHEDULED TASKS
+	Quartz: NuGet package
+
+ORM / ODM
+	Entity Framework vs MongoDB driver vs NHibernate
+
+OBJECT MAPPING
+	AutoMapper
+	DTO?
+
+SERVER SIDE RENDERING HTML
+	Serve HTML/views
