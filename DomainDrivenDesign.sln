@@ -11,13 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiBi.DataAccess", "BiBi.Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{C9AEF516-9063-4898-9FC6-499F9E0B99F3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{730A5AF9-8070-433F-B58E-D547124E0283}"
-	ProjectSection(SolutionItems) = preProject
-		PROJECT_INFORMATION.txt = PROJECT_INFORMATION.txt
-		TO_DO_LIST.txt = TO_DO_LIST.txt
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiBi.Infrastructure", "BiBi.Infrastructure\BiBi.Infrastructure.csproj", "{4EB7E0B7-C618-4B2E-951B-1BB81C01483C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{DD6985FC-2471-4BE6-A787-D393AE3E2A11}"
+	ProjectSection(SolutionItems) = preProject
+		PROJ_INFO.txt = PROJ_INFO.txt
+		TO_DO.txt = TO_DO.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
