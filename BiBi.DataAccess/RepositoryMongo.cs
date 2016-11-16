@@ -32,8 +32,9 @@ namespace BiBi.DataAccess
             //  .CONFIG :  ConfigurationManager.AppSettings["MongoServer"]
             //  App.Config XML  :   <appSettings> <add Key...
             //  OR VS Proj -> Properties -> .settings
+            //  static class with static read-only properties -> global constants
 
-
+            //  Debug config    Localization config -> runtime
 
             BsonClassMap.RegisterClassMap<TEntity>(e =>
             {
