@@ -5,7 +5,7 @@ using System.Web;
 
 namespace BiBi.WebAPI.Models
 {
-    public class GenericResponseMsg
+    public class GenericRespMsg
     {
     }
 }
